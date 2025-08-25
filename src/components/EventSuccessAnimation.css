@@ -1,0 +1,21 @@
+/* src/components/EventSuccessAnimation.css */
+
+.event-success-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark overlay */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000; /* this ensures it sits above other content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.event-success-overlay .lottie-animation {
+  width: 200px;
+  height: 200px;
+}

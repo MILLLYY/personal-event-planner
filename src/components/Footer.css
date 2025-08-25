@@ -1,0 +1,9 @@
+/* src/components/Footer.css */
+.app-footer {
+  text-align: center;
+  padding: 3px 2px;
+  background: lightpink;
+  color: black;
+  border-top: 1px solid lightpink;
+  margin-top: 300px;
+}

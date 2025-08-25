@@ -1,0 +1,12 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.main-content {
+  padding: 20px;
+  margin-top: 80px;
+}

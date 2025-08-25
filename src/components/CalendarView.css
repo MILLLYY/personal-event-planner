@@ -1,0 +1,56 @@
+/* src/components/CalendarView.css */
+.calendar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 1rem auto;
+  padding: 1rem;
+  
+}
+
+/* this customizes react-big-calendar toolbar */
+.rbc-toolbar {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rbc-toolbar .rbc-btn-group {
+  display: flex;
+  gap: 0.5rem;
+  pointer-events: auto;
+}
+
+.rbc-toolbar button {
+  border: none;
+  
+  
+  background: lightblue;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 1s ease;
+}
+
+.rbc-toolbar button:hover {
+  background: #3498db;
+}
+
+.rbc-toolbar-label {
+  font-size: 1.5rem;
+  color: #888;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.view-buttons button {
+  background: #3498db;
+}
+
+.view-buttons button:hover {
+  background: lightblue;
+}

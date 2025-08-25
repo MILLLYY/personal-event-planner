@@ -1,0 +1,24 @@
+/* src/index.css */
+* {
+  box-sizing: border-box;
+}
+
+body.dark {
+  background-color: white;
+  color: #fff;
+  font-family: "Helvetica",Arial ;
+}
+
+body.light {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}

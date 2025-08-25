@@ -1,0 +1,51 @@
+/* Style the event list container */
+.event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* styles for each event item */
+.event-list-item {
+  background-color: pink;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 6px;
+  transition: transform 1s ease, box-shadow 1s ease, background-color 1s ease;
+  box-shadow: 0 1px 3px lightblue;
+  cursor: pointer;
+}
+
+/* hover interactive effects */
+.event-list-item:hover {
+  background-color: lightblue;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px pink;
+}
+
+/* event details layout */
+.event-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* styling for event title */
+.event-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* styling for event date and time */
+.event-datetime {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+
+.no-events {
+  font-style: italic;
+  text-align: center;
+  color: #888888;
+}

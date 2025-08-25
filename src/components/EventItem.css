@@ -1,0 +1,79 @@
+/* src/components/EventItem.css */
+
+/* container for each event item with smooth transitions */
+.event-item {
+  background-color: #b9b1b1;
+  color: black;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px #888;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+/* hover effect: a slight lift plus a deeper shadow & lightened background */
+.event-item:hover {
+  background-color: rgb(159, 218, 249);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px pink;
+}
+
+/* container styling for text elements */
+.event-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* title style */
+.event-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* date/time, description, and location have uniform, subtle styling */
+.event-datetime,
+.event-description,
+.event-location {
+  font-size: 0.9rem;
+  margin: 0;
+  color: black;
+}
+
+/* delete button styling */
+.delete-button {
+  align-self: flex-end;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #e74c3c;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* hover effect for the delete button */
+.delete-button:hover {
+  background-color: #dd8a81;
+}
+
+.edit-button {
+  align-self: flex-end;
+  padding: 10px 15px;
+  font-size: 0.8rem;
+  border: 2px solid rgb(119, 117, 117);
+  border-radius: 4px;
+  background-color: pink;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-button:hover {
+  background-color: rgb(194, 105, 194);
+}
